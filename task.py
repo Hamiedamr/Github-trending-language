@@ -30,4 +30,4 @@ for repo in repos:
 for lang in langs:
     reps =  list(filter(lambda x: x['language'] == lang,repos))
     repos_by_lang[lang] = (reps,len(reps))
-    print("lang {} :  numebr of repos : {}".format(lang,len(reps)))
+    print("{} :  numebr of repos : {}".format(lang,len(reps)))
